@@ -1,6 +1,5 @@
 # l4d2-aim-down-sight
 
-Add more activities available for view model
 添加更多activity可用在V模中
 
 ### Activities list:
