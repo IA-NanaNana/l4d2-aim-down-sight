@@ -1,10 +1,10 @@
-"Weapon"
-{
-	"weapon_smg"
-	{
-		"Animation"
-		{
-			"ACT_VM_PRIMARYATTACK_LAYER" "6"
-		}
-	}
-}
+// "Weapon"
+// {
+	// "weapon_smg"
+	// {
+		// "Animation"
+		// {
+			// "ACT_VM_PRIMARYATTACK_LAYER" "6"
+		// }
+	// }
+// }
