@@ -3,6 +3,7 @@
 Add more activities available for view model
 
 Activities list:
+
 ACT_VM_RELOAD				193 // 正常换弹夹
 
 ACT_VM_RELOAD_EMPTY			180 // 空膛换弹夹
