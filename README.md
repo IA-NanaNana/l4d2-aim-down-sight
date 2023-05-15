@@ -3,6 +3,7 @@
 添加更多activity可用在V模中
 
 ### ConVars
+> ads_holding_key "0"  // Enable in ads by holding the zoom key.  
 > ads_pellet_scatter_modifier "0.5"  // Pellet scatter modifier while in ads.  
 > ads_recoil_modifier "0.5"  // Recoil modifier while in ads.  
 > ads_spread_modifier "0.1"  // Spread modifier while in ads.
