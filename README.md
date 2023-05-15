@@ -2,6 +2,11 @@
 
 添加更多activity可用在V模中
 
+### ConVars
+> ads_pellet_scatter_modifier "0.5"  // Pellet scatter modifier while in ads.  
+> ads_recoil_modifier "0.5"  // Recoil modifier while in ads.  
+> ads_spread_modifier "0.1"  // Spread modifier while in ads.
+
 ### Activities list:
 - ACT_VM_RELOAD				193 // 正常换弹夹  
 - ACT_VM_RELOAD_EMPTY			180 // 空膛换弹夹  
