@@ -1,0 +1,37 @@
+"Games"
+{
+    "left4dead2"
+    {
+		"Offsets"
+		{
+			"Os"
+			{
+				"windows"	"1"
+				"linux"		"0"
+			}
+		}
+		"Signatures"
+		{
+			"SelectHeaviestSequence" // Found by IA-NanaNana
+			{
+				"library"	"server"
+				"linux"		"@_ZN14CBaseAnimating22SelectHeaviestSequenceE8Activity"
+				"windows"	"\x2A\x2A\x2A\x2A\x2A\x2A\x83\x2A\x2A\x2A\x2A\x2A\x2A\x75\x2A\xE8\x7C\xFF\x01\x00\x85\xC0\x74\x2A\x8B\x2A\xE8\x2A\x2A\x2A\x2A\x8B\x86"
+			}
+			
+			// =========================
+			// SILVERS SIGS
+			// =========================
+			/* GetWeaponInfo(CSWeaponID) */
+			"GetWeaponInfo"
+			{
+				"library"		"server"
+				"linux"			"@_Z13GetWeaponInfo10CSWeaponID"
+				"windows"		"\x55\x8B\x2A\x53\x8B\x2A\x2A\x85\x2A\x75\x2A\x33\x2A\x5B\x5D\xC3\x80"
+				/* 55 8B ? 53 8B ? ? 85 ? 75 ? 33 ? 5B 5D C3 80 */
+				/* Search "weapon_reparse_server" for "CTerrorWeaponInfo::Reload", inside top call */
+			}
+		}
+	}
+}
+		
