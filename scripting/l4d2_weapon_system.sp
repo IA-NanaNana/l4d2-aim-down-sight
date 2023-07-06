@@ -25,7 +25,7 @@ public Plugin myinfo=
 	name = "Weapon System",
 	author = "IA/NanaNana",
 	description = "Make the mp_restartgame and restart scenario from vote no longer change map to first map of scenario",
-	version = "1.0",
+	version = "1.1",
 	url = "https://github.com/IA-NanaNana/l4d2-aim-down-sight"
 }
 
